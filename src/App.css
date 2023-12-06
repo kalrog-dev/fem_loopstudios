@@ -1,4 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   max-width: 1440px;
   margin: 0 auto;
+  padding-inline: 24px;
+  background-color: #333;
 }
