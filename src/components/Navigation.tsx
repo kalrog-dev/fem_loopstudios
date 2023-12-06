@@ -16,12 +16,12 @@ export default function Navigation() {
         <img src={isOpen ? close : hamburger} alt='Menu icon' />
       </button>
       <nav style={{display: isOpen ? '' : 'none'}}>
-        <ul>
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
+        <ul className='nav-list'>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Careers</a></li>
+          <li><a href='#'>Events</a></li>
+          <li><a href='#'>Products</a></li>
+          <li><a href='#'>Support</a></li>
         </ul>
       </nav>
     </>
