@@ -9,4 +9,5 @@ header {
 
 .logo {
   margin-block: 40px;
+  z-index: 1;
 }
