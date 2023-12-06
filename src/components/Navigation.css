@@ -1,6 +1,6 @@
 .menu-btn {
   padding: 0.4em;
   background-color: transparent;
-  border: 1px solid magenta;
+  border: none;
   cursor: pointer;
 }
