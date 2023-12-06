@@ -5,7 +5,7 @@ import './Header.css'
 export default function Header() {
   return (
     <header>
-      <img src={logo} alt='Loopstudios logo' />
+      <img className='logo' src={logo} alt='Loopstudios logo' />
       <Navigation />
     </header>
   )

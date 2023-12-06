@@ -4,6 +4,9 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 40px;
   padding-inline: 24px;
+}
+
+.logo {
+  margin-block: 40px;
 }
