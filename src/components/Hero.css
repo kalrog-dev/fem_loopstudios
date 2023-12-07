@@ -1,0 +1,15 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../assets/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  margin-inline: 1.6em;
+  padding: 1.6em;
+  border: 2px solid #fff;
+}

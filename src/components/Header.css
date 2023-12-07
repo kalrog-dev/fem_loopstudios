@@ -4,10 +4,10 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-inline: 24px;
+  padding-inline: 1.6em;
 }
 
 .logo {
-  margin-block: 40px;
+  margin-block: 2.65em;
   z-index: 1;
 }

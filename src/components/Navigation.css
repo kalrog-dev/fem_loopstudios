@@ -12,7 +12,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-inline: 24px;
+  padding-inline: 1.6em;
   background-color: #000;
 }
 
@@ -24,9 +24,5 @@ nav {
   display: block;
   padding-block: 0.25em;
   margin-bottom: 0.4em;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
-  text-decoration: none;
-  text-transform: uppercase;
   color: inherit;
 }

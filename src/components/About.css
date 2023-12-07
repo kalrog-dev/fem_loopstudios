@@ -1,0 +1,18 @@
+#about {
+  display: grid;
+  gap: 3.2em;
+  margin-block: 6.4em;
+}
+
+.about-content {
+  text-align: center;
+  color: #000;
+}
+
+.about-title {
+  margin-bottom: 0.65em;
+}
+
+.about-body {
+  opacity: 0.5;
+}
