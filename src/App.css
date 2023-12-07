@@ -22,6 +22,34 @@
   max-width: 1440px;
   margin: 0 auto;
   font-family: 'Alata', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
   color: #fff;
-  background-color: #333;
+  background-color: #fff;
+}
+
+/* General */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Typography */
+.hero-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.nav-list a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
