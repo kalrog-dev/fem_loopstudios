@@ -1,0 +1,35 @@
+footer {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-block: 3.75em;
+  background-color: #000;
+}
+
+.footer-logo {
+  margin: 0 auto 2.15em;
+}
+
+.footer-nav-list {
+  margin-bottom: 3.2em;
+}
+
+.footer-nav-list li {
+  margin-bottom: 1.06em;
+}
+
+.footer-nav-list a {
+  line-height: 1.66;
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1.1em;
+}
+
+.footer-copy {
+  opacity: 0.5;
+}
