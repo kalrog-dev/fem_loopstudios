@@ -1,3 +1,21 @@
 main {
   padding-inline: 1.6em;
 }
+
+@media (min-width: 768px) {
+  main {
+    padding-inline: 3em;
+  }
+}
+
+@media (min-width: 992) {
+  main {
+    padding-inline: 6em;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    padding-inline: 11em;
+  }
+}

@@ -9,7 +9,33 @@
 }
 
 .hero-content {
+  max-width: 650px;
   margin-inline: 1.6em;
   padding: 1.6em;
   border: 2px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: min(100vh, 650px);
+    justify-content: flex-start;
+    background-image: url('../assets/desktop/image-hero.jpg');
+    background-position: center;
+  }
+
+  .hero-content {
+    margin-inline: 3em;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content {
+    margin-inline: 6em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content {
+    margin-inline: 11em;
+  }
 }

@@ -11,3 +11,21 @@ header {
   margin-block: 2.65em;
   z-index: 1001;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding-inline: 3em;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    padding-inline: 6em;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    padding-inline: 11em;
+  }
+}
