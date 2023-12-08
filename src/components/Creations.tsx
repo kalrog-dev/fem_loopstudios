@@ -1,7 +1,11 @@
-import './Creations.css'
+import useMediaQuery from "../hooks/useMediaQuery"
 import creationImages from '../creation-images'
+import './Creations.css'
 
 export default function Creations() {
+  const isLargeScreen = useMediaQuery('(min-width: 1200px)')
+  console.log(isLargeScreen)
+
   return (
     <section id='creations'>
       <h2 className='creations-title'>Our creations</h2>
@@ -10,7 +14,7 @@ export default function Creations() {
         {creationImages.map((image, index) => {
           return (
             <figure className='creations-grid-item' key={index}>
-              <img src={image.srcSm} alt={image.desc} />
+              <img src={isLargeScreen ? image.srcLg : image.srcSm} alt={image.desc} />
               <figcaption>{image.desc.toUpperCase()}</figcaption>
             </figure>
           )
