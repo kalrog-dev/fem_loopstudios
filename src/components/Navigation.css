@@ -6,7 +6,7 @@
   z-index: 1001;
 }
 
-nav {
+.header-nav {
   position: fixed;
   inset: 0;
   display: flex;
@@ -17,11 +17,7 @@ nav {
   z-index: 1000;
 }
 
-.nav-list {
-  list-style: none;
-}
-
-.nav-list a {
+.header-nav-list a {
   display: block;
   padding-block: 0.25em;
   margin-bottom: 0.4em;
