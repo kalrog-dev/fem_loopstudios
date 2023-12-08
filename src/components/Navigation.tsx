@@ -15,7 +15,7 @@ export default function Navigation() {
       <button className='menu-btn' onClick={handleMenuClick}>
         <img src={isOpen ? close : hamburger} alt='Menu icon' />
       </button>
-      <nav className='header-nav' style={{display: isOpen ? '' : 'none'}}>
+      <nav className={isOpen ? 'nav-open header-nav' : 'header-nav'}>
         <ul className='header-nav-list'>
           <li><a href='#'>About</a></li>
           <li><a href='#'>Careers</a></li>

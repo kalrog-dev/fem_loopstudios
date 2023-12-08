@@ -9,7 +9,7 @@
 .header-nav {
   position: fixed;
   inset: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   padding-inline: 1.6em;
@@ -17,9 +17,36 @@
   z-index: 1000;
 }
 
+.nav-open {
+  display: flex;
+}
+
 .header-nav-list a {
   display: block;
   padding-block: 0.25em;
   margin-bottom: 0.4em;
   color: inherit;
+}
+
+@media (min-width: 768px) {
+  .header-nav {
+    position: static;
+    display: flex;
+    padding-inline: 0;
+    color: white;
+    background-color: transparent;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 2.15em;
+  }
+
+  .header-nav-list a {
+    margin-bottom: 0;
+  }
+
+  .menu-btn {
+    display: none;
+  }
 }
