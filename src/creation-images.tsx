@@ -10,7 +10,7 @@ export default [
     srcLg: './images/desktop/image-night-arcade.jpg',
   },
   {
-    desc: 'Soccer\nTeam VR',
+    desc: 'Soccer Team VR',
     srcSm: './images/mobile/image-soccer-team.jpg',
     srcLg: './images/desktop/image-soccer-team.jpg',
   },
