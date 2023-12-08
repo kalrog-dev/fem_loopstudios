@@ -34,12 +34,20 @@ img {
   max-width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .btn {
   display: inline-block;
   margin-inline: auto;
   padding: 1em 2.85em;
   text-align: center;
-  text-decoration: none;
   color: #000;
   border: 1px solid #000;
 }
@@ -57,10 +65,9 @@ h2 {
   text-transform: uppercase;
 }
 
-.nav-list a {
+.header-nav-list a {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
