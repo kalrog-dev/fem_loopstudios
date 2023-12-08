@@ -4,6 +4,10 @@
   margin-block: 6.4em;
 }
 
+.about-image {
+  margin-inline: auto;
+}
+
 .about-content {
   text-align: center;
   color: #000;

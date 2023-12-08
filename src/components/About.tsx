@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <section id='about'>
-      <img src={interactive} alt='VR technology' />
+      <img className='about-image' src={interactive} alt='VR technology' />
       <div className='about-content'>
         <h2 className='about-title'>The leader in interactive VR</h2>
         <p className='about-body'>Founded in 2011, Loopstudios has been producing 
