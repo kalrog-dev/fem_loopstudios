@@ -19,6 +19,11 @@
 }
 
 #root {
+  background-color: #191919;
+}
+
+#app {
+  position: relative;
   max-width: 1440px;
   margin: 0 auto;
   font-family: 'Alata', sans-serif;
@@ -84,3 +89,27 @@ h2 {
   text-transform: uppercase;
 }
 
+@media (min-width: 576px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .header-nav-list a {
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-title {
+    font-size: 4.5rem;
+  }
+}
