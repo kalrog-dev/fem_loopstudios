@@ -34,7 +34,13 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+  .hero-content {
+    margin-inline: 9em;
+  }
+}
+
+@media (min-width: 1440px) {
   .hero-content {
     margin-inline: 11em;
   }

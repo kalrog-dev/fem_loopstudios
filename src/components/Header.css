@@ -24,7 +24,13 @@ header {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+  header {
+    padding-inline: 9em;
+  }
+}
+
+@media (min-width: 1440px) {
   header {
     padding-inline: 11em;
   }

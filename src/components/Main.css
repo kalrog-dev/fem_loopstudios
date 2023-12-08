@@ -8,13 +8,19 @@ main {
   }
 }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   main {
     padding-inline: 6em;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
+  main {
+    padding-inline: 9em;
+  }
+}
+
+@media (min-width: 1440px) {
   main {
     padding-inline: 11em;
   }

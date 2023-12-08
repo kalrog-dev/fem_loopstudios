@@ -38,3 +38,15 @@
   color: #fff;
   width: 125px;
 }
+
+@media (min-width: 768px) {
+  .creations-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .creations-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

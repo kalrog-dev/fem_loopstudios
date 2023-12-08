@@ -3,7 +3,7 @@ import creationImages from '../creation-images'
 import './Creations.css'
 
 export default function Creations() {
-  const isLargeScreen = useMediaQuery('(min-width: 1200px)')
+  const isLargeScreen = useMediaQuery('(min-width: 768px)')
   console.log(isLargeScreen)
 
   return (
