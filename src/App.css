@@ -48,7 +48,6 @@ a {
   position: relative;
   text-decoration: none;
   color: inherit;
-  
 }
 
 a::after {
@@ -71,7 +70,10 @@ a:hover::after {
   transform: scaleX(1);
 }
 
-
+a:active::after,
+a:focus::after {
+  opacity: 0;
+}
 
 /* Buttons */
 .btn {
