@@ -15,6 +15,7 @@ export default function Creations() {
           return (
             <figure className='creations-grid-item' key={index}>
               <img src={isLargeScreen ? image.srcLg : image.srcSm} alt={image.desc} />
+              <div className="gradient"></div>
               <figcaption>{image.desc.toUpperCase()}</figcaption>
             </figure>
           )

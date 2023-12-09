@@ -114,11 +114,25 @@ h2 {
     font-weight: 400;
     text-transform: capitalize;
   }
+
+  .creations-grid-item figcaption {
+    font-size: 1.75rem;
+  }
 }
 
 @media (min-width: 992px) {
   h2 {
     font-size: 2.5rem;
+  }
+
+  .creations-grid-item figcaption {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .creations-grid-item figcaption {
+    font-size: 1.75rem;
   }
 }
 
@@ -129,5 +143,9 @@ h2 {
 
   h2 {
     font-size: 3.2rem;
+  }
+
+  .creations-grid-item figcaption {
+    font-size: 2.05rem;
   }
 }
