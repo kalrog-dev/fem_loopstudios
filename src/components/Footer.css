@@ -3,6 +3,7 @@ footer {
   justify-content: center;
   text-align: center;
   padding-block: 3.75em;
+  padding-inline: 1.6em;
   background-color: #000;
 }
 
@@ -32,4 +33,69 @@ footer {
 
 .footer-copy {
   opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1.6em;
+    align-items: center;
+    padding-inline: 3em;
+  }
+
+  .footer-logo {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-nav-list {
+    display: flex;
+    gap: 1.15em;
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+
+  .footer-nav-list li {
+    margin-bottom: 0;
+  }
+
+  .footer-socials-list {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin-left: auto;
+  }
+
+  .footer-socials-list {
+    margin-bottom: 0;
+  }
+
+  .footer-copy {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    padding-inline: 6em;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    padding-inline: 9em;
+  }
+
+  .footer-nav-list {
+    gap: 1.85em;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer {
+    padding-inline: 11em;
+  }
+
+  .footer-nav-list {
+    gap: 2.15em;
+  }
 }
