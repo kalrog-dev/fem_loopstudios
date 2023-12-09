@@ -8,7 +8,7 @@ export default function Creations() {
   return (
     <section id='creations'>
       <h2 className='creations-title'>Our creations</h2>
-      <a className='creations-btn btn' href="#">See all</a>
+      <a className='creations-btn btn' href="#creations">See all</a>
       <div className="creations-grid">
         {creationImages.map((image, index) => {
           return (
