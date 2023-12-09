@@ -20,3 +20,45 @@
 .about-body {
   opacity: 0.5;
 }
+
+@media (min-width: 768px) {
+  .about-title {
+    margin-bottom: 0.45em;
+  }
+}
+
+@media (min-width: 992px) {
+  #about {
+    grid-template-columns: 1fr 160px 1fr;
+    grid-template-rows: 1fr 5fr;
+  }
+
+  .about-image {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .about-content {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.4em 0 0 6.4em;
+    text-align: left;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about {
+    margin-block: 9em;
+  }
+}
+
+@media (min-width: 1440px) {
+  #about {
+    margin-block: 11em;
+  }
+}
