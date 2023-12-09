@@ -1,6 +1,6 @@
 #creations {
   display: grid;
-  margin-bottom: 6.4em;
+  padding-block: 6.4em;
 }
 
 .creations-btn {
@@ -87,7 +87,7 @@
 
 @media (min-width: 1200px) {
   #creations {
-    margin-bottom: 9em;
+    padding-block: 9em;
   }
 
   .creations-grid {
@@ -101,7 +101,7 @@
 
 @media (min-width: 1440px) {
   #creations {
-    margin-bottom: 11em;
+    padding-block: 11em;
   }
 
   .creations-grid {

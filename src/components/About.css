@@ -1,7 +1,7 @@
 #about {
   display: grid;
   gap: 3.2em;
-  margin-block: 6.4em;
+  padding-top: 6.4em;
 }
 
 .about-image {
@@ -53,12 +53,12 @@
 
 @media (min-width: 1200px) {
   #about {
-    margin-block: 9em;
+    padding-top: 9em;
   }
 }
 
 @media (min-width: 1440px) {
   #about {
-    margin-block: 11em;
+    padding-top: 11em;
   }
 }
