@@ -76,6 +76,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.about-body {
+  line-height: 1.6;
+}
+
 .creations-btn {
   font-size: 0.875rem;
   letter-spacing: 5px;
@@ -100,6 +104,10 @@ h2 {
     font-size: 3.5rem;
   }
 
+  h2 {
+    font-size: 2.25rem;
+  }
+
   .header-nav-list a {
     font-family: 'Alata', sans-serif;
     font-size: 1rem;
@@ -108,8 +116,18 @@ h2 {
   }
 }
 
+@media (min-width: 992px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .hero-title {
     font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
   }
 }
