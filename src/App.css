@@ -45,10 +45,35 @@ li {
 }
 
 a {
+  position: relative;
   text-decoration: none;
   color: inherit;
+  
 }
 
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 0.1s ease-in, transform 0.15s ease-in;
+}
+
+a:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+
+
+/* Buttons */
 .btn {
   display: inline-block;
   margin-inline: auto;
@@ -56,6 +81,12 @@ a {
   text-align: center;
   color: #000;
   border: 1px solid #000;
+  transition: color 0.1s ease-in, background-color 0.1s ease-in;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 /* Typography */

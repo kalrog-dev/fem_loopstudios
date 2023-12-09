@@ -21,6 +21,11 @@ footer {
 
 .footer-nav-list a {
   line-height: 1.66;
+  padding-block: 0.25em;
+}
+
+.footer-socials-list a::after {
+  left: -12px;
 }
 
 .footer-socials-list {
