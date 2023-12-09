@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('../assets/mobile/image-hero.jpg');
+  /* background-color: #000; */
+  background: url('../assets/mobile/image-hero.jpg'), hsl(0, 0%, 0%, 0.4);
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .hero-content {
@@ -19,29 +21,33 @@
   .hero {
     min-height: min(100vh, 650px);
     justify-content: flex-start;
-    background-image: url('../assets/desktop/image-hero.jpg');
+    background: url('../assets/desktop/image-hero.jpg'), hsl(0, 0%, 0%, 0.4);
     background-position: center;
   }
 
   .hero-content {
     margin-inline: 3em;
+    padding: 1.85em;
   }
 }
 
 @media (min-width: 992px) {
   .hero-content {
     margin-inline: 6em;
+    padding: 2.15em;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-content {
     margin-inline: 9em;
+    padding: 2.35em;
   }
 }
 
 @media (min-width: 1440px) {
   .hero-content {
     margin-inline: 11em;
+    padding: 2.65em;
   }
 }
