@@ -4,7 +4,6 @@ import './Creations.css'
 
 export default function Creations() {
   const isLargeScreen = useMediaQuery('(min-width: 768px)')
-  console.log(isLargeScreen)
 
   return (
     <section id='creations'>
